@@ -1,0 +1,15 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_resetSync Architecture: translated, 0h:00m:00s,    103 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync_2_7 Architecture: translated, 0h:00m:00s,    103 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv_7 Architecture: translated, 0h:00m:00s,    103 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync_2_6 Architecture: translated, 0h:00m:00s,    103 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv_6 Architecture: translated, 0h:00m:00s,    103 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_corefifo_async Architecture: translated, 0h:00m:00s,    105 MB
+smartfusion2, Entity: GND Architecture: syn_black_box, 0h:00m:00s,    105 MB
+smartfusion2, Entity: VCC Architecture: syn_black_box, 0h:00m:00s,    105 MB
+smartfusion2, Entity: RAM64x18 Architecture: syn_black_box, 0h:00m:00s,    105 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_USRAM_top Architecture: def_arch, 0h:00m:00s,    105 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_ram_wrapper Architecture: generated, 0h:00m:00s,    105 MB
+corefifo_lib, Entity: COREFIFO_C0_COREFIFO_C0_0_COREFIFO Architecture: translated, 0h:00m:00s,    105 MB
+work, Entity: COREFIFO_C0 Architecture: rtl, 0h:00m:00s,    105 MB
+work, Entity: GMII_MAC_Filter_Sniffer Architecture: architecture_gmii_mac_filter_sniffer, 0h:00m:00s,    105 MB

@@ -1,0 +1,31 @@
+Resource Usage Report for Gray_Code_Counter 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          1 use
+CFG2           8 uses
+CFG3           1 use
+CFG4           4 uses
+
+Carry cells:
+ARI1            9 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            9 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Global Clock Buffers: 1
+
+Total LUTs:    22
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  9 + 0 + 0 + 0 = 9;
+Total number of LUTs after P&R:  22 + 0 + 0 + 0 = 22;
+

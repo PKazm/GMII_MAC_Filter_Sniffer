@@ -1,0 +1,32 @@
+Resource Usage Report for GMII_MAC_Filter_Sniffer 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          5 uses
+CFG1           6 uses
+CFG2           43 uses
+CFG3           28 uses
+CFG4           123 uses
+
+Carry cells:
+ARI1            127 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            438 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+Global Clock Buffers: 5
+
+Total LUTs:    327
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 36; LUTs = 36;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  438 + 36 + 0 + 0 = 474;
+Total number of LUTs after P&R:  327 + 36 + 0 + 0 = 363;
+

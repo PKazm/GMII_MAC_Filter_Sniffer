@@ -1,0 +1,25 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       5 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     5 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    257    0      0      'RXCLK_RNI4EGA' 
+    184    0      0      'PCLK_RNIAB1A' 
+    0      319    0      'RSTn_RNI7ROC' 
+    0      61     0      'COREFIFO_C0_0/COREFIFO_C0_0/R1.r_corefifo_resetSync/shift_reg_RNIO7F9[1]' 
+    0      44     0      'COREFIFO_C0_0/COREFIFO_C0_0/R1.w_corefifo_resetSync/shift_reg_RNIT747[1]' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+Info: BLK014: Adding interface buffers. Port processed: 108, Added buffers: 103.

@@ -1,0 +1,92 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+# Written on Fri May  1 15:59:12 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Gray_Code_Counter"
+Constraint File(s):      "E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\designer\Gray_Code_Counter\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                  Ending                    |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gray_Code_Counter|CLK     Gray_Code_Counter|CLK     |     10.000           |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:RSTn
+p:cnt_clr
+p:gray_out[0]
+p:gray_out[1]
+p:gray_out[2]
+p:gray_out[3]
+p:gray_out[4]
+p:gray_out[5]
+p:gray_out[6]
+p:gray_out[7]
+p:incr_cntr
+p:max_cnt_bin[0]
+p:max_cnt_bin[1]
+p:max_cnt_bin[2]
+p:max_cnt_bin[3]
+p:max_cnt_bin[4]
+p:max_cnt_bin[5]
+p:max_cnt_bin[6]
+p:max_cnt_bin[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

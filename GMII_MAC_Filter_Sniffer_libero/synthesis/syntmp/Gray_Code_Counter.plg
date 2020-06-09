@@ -1,0 +1,10 @@
+@P:  Worst Slack : 6.151
+@P:  Gray_Code_Counter|CLK - Estimated Frequency : 259.8 MHz
+@P:  Gray_Code_Counter|CLK - Requested Frequency : 100.0 MHz
+@P:  Gray_Code_Counter|CLK - Estimated Period : 3.849
+@P:  Gray_Code_Counter|CLK - Requested Period : 10.000
+@P:  Gray_Code_Counter|CLK - Slack : 6.151
+@P: Gray_Code_Counter Part : m2s010vf400std
+@P: Gray_Code_Counter Register bits  : 9 
+@P: Gray_Code_Counter DSP Blocks  : 0
+@P:  CPU Time : 0h:00m:03s

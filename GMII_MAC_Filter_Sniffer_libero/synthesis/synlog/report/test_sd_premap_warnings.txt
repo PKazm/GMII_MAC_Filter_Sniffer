@@ -1,0 +1,1 @@
+@W: MT530 :"e:\github_repos\gmii_mac_filter_sniffer\gmii_mac_filter_sniffer_libero\component\work\test_sd\test_sd.vhd":112:0:112:18|Found inferred clock FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock which controls 1 sequential elements including Gray_Code_Counter_0. This clock has no specified timing constraint which may adversely impact design performance. 

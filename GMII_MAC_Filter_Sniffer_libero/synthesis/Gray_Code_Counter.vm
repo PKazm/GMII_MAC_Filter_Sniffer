@@ -1,0 +1,388 @@
+//
+// Written by Synplify Pro 
+// Product Version "P-2019.03M-SP1-1"
+// Program "Synplify Pro", Mapper "mapact, Build 2737R"
+// Fri May  1 15:59:16 2020
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std.vhd "
+// file 1 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\snps_haps_pkg.vhd "
+// file 2 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std1164.vhd "
+// file 3 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\std_textio.vhd "
+// file 4 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\numeric.vhd "
+// file 5 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\umr_capim.vhd "
+// file 6 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\arith.vhd "
+// file 7 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd2008\unsigned.vhd "
+// file 8 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\hyperents.vhd "
+// file 9 "\e:\github_repos\gmii_mac_filter_sniffer\gmii_mac_filter_sniffer_libero\hdl\gray_code_package.vhd "
+// file 10 "\e:\github_repos\gmii_mac_filter_sniffer\gmii_mac_filter_sniffer_libero\hdl\gray_code_counter.vhd "
+// file 11 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\vhd\math_real.vhd "
+// file 12 "\c:\microsemi\libero_soc_v12.4\synplifypro\lib\nlconst.dat "
+// file 13 "\e:\github_repos\gmii_mac_filter_sniffer\gmii_mac_filter_sniffer_libero\designer\gray_code_counter\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module Gray_Code_Counter (
+  CLK,
+  RSTn,
+  max_cnt_bin,
+  cnt_clr,
+  incr_cntr,
+  gray_out
+)
+;
+
+/*  Synopsys
+.origName=Gray_Code_Counter
+.langParams="g_n_bits"
+g_n_bits=8
+ */
+input CLK ;
+input RSTn ;
+input [7:0] max_cnt_bin ;
+input cnt_clr ;
+input incr_cntr ;
+output [7:0] gray_out ;
+wire CLK ;
+wire RSTn ;
+wire cnt_clr ;
+wire incr_cntr ;
+wire [6:0] bin_cntr_Z;
+wire [6:0] bin_cntr_cry;
+wire [7:0] bin_cntr_s;
+wire [6:6] bin_cntr_RNIU056F_Y;
+wire [7:7] bin_cntr_RNO_FCO;
+wire [7:7] bin_cntr_RNO_Y;
+wire [5:5] bin_cntr_RNISMV8D_Y;
+wire [4:4] bin_cntr_RNIRDQBB_Y;
+wire [3:3] bin_cntr_RNIR5LE9_Y;
+wire [2:2] bin_cntr_RNISUFH7_Y;
+wire [1:1] bin_cntr_RNIUOAK5_Y;
+wire [0:0] bin_cntr_RNI1K5N3_Y;
+wire NN_1 ;
+wire incr_sig_Z ;
+wire GND ;
+wire VCC ;
+wire N_27_i ;
+wire un1_cnt_clr_0_13_i_o2_1 ;
+wire un1_cnt_clr_0_13_i_o2_2 ;
+wire un1_cnt_clr_0_13_i_o2_3 ;
+wire un1_cnt_clr_0_13_i_o2_4 ;
+wire N_34_i ;
+wire bin_cntr_cry_cy ;
+wire cnt_clr_RNI5G0Q1_S ;
+wire cnt_clr_RNI5G0Q1_Y ;
+  CLKINT CLK_RNIQO92 (
+	.Y(NN_1),
+	.A(CLK)
+);
+// @10:51
+  SLE incr_sig (
+	.Q(incr_sig_Z),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(incr_cntr),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[0]  (
+	.Q(bin_cntr_Z[0]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[0]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[1]  (
+	.Q(bin_cntr_Z[1]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[1]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[2]  (
+	.Q(bin_cntr_Z[2]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[2]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[3]  (
+	.Q(bin_cntr_Z[3]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[3]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[4]  (
+	.Q(bin_cntr_Z[4]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[4]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[5]  (
+	.Q(bin_cntr_Z[5]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[5]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[6]  (
+	.Q(bin_cntr_Z[6]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[6]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @10:51
+  SLE \bin_cntr[7]  (
+	.Q(gray_out[7]),
+	.ADn(VCC),
+	.ALn(RSTn),
+	.CLK(NN_1),
+	.D(bin_cntr_s[7]),
+	.EN(N_34_i),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+  ARI1 cnt_clr_RNI5G0Q1 (
+	.FCO(bin_cntr_cry_cy),
+	.S(cnt_clr_RNI5G0Q1_S),
+	.Y(cnt_clr_RNI5G0Q1_Y),
+	.B(cnt_clr),
+	.C(un1_cnt_clr_0_13_i_o2_2),
+	.D(un1_cnt_clr_0_13_i_o2_3),
+	.A(un1_cnt_clr_0_13_i_o2_4),
+	.FCI(VCC)
+);
+defparam cnt_clr_RNI5G0Q1.INIT=20'h45554;
+  ARI1 \bin_cntr_RNI1K5N3[0]  (
+	.FCO(bin_cntr_cry[0]),
+	.S(bin_cntr_s[0]),
+	.Y(bin_cntr_RNI1K5N3_Y[0]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[0]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry_cy)
+);
+defparam \bin_cntr_RNI1K5N3[0] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNIUOAK5[1]  (
+	.FCO(bin_cntr_cry[1]),
+	.S(bin_cntr_s[1]),
+	.Y(bin_cntr_RNIUOAK5_Y[1]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[1]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[0])
+);
+defparam \bin_cntr_RNIUOAK5[1] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNISUFH7[2]  (
+	.FCO(bin_cntr_cry[2]),
+	.S(bin_cntr_s[2]),
+	.Y(bin_cntr_RNISUFH7_Y[2]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[2]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[1])
+);
+defparam \bin_cntr_RNISUFH7[2] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNIR5LE9[3]  (
+	.FCO(bin_cntr_cry[3]),
+	.S(bin_cntr_s[3]),
+	.Y(bin_cntr_RNIR5LE9_Y[3]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[3]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[2])
+);
+defparam \bin_cntr_RNIR5LE9[3] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNIRDQBB[4]  (
+	.FCO(bin_cntr_cry[4]),
+	.S(bin_cntr_s[4]),
+	.Y(bin_cntr_RNIRDQBB_Y[4]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[4]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[3])
+);
+defparam \bin_cntr_RNIRDQBB[4] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNISMV8D[5]  (
+	.FCO(bin_cntr_cry[5]),
+	.S(bin_cntr_s[5]),
+	.Y(bin_cntr_RNISMV8D_Y[5]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[5]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[4])
+);
+defparam \bin_cntr_RNISMV8D[5] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNO[7]  (
+	.FCO(bin_cntr_RNO_FCO[7]),
+	.S(bin_cntr_s[7]),
+	.Y(bin_cntr_RNO_Y[7]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(gray_out[7]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[6])
+);
+defparam \bin_cntr_RNO[7] .INIT=20'h48800;
+  ARI1 \bin_cntr_RNIU056F[6]  (
+	.FCO(bin_cntr_cry[6]),
+	.S(bin_cntr_s[6]),
+	.Y(bin_cntr_RNIU056F_Y[6]),
+	.B(cnt_clr_RNI5G0Q1_Y),
+	.C(bin_cntr_Z[6]),
+	.D(GND),
+	.A(VCC),
+	.FCI(bin_cntr_cry[5])
+);
+defparam \bin_cntr_RNIU056F[6] .INIT=20'h48800;
+  CFG2 \max_cnt_bin_RNI77P5[3]  (
+	.A(bin_cntr_Z[3]),
+	.B(max_cnt_bin[3]),
+	.Y(N_27_i)
+);
+defparam \max_cnt_bin_RNI77P5[3] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[6]  (
+	.A(bin_cntr_Z[6]),
+	.B(gray_out[7]),
+	.Y(gray_out[6])
+);
+defparam \gray_code_0_x3[6] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[5]  (
+	.A(bin_cntr_Z[5]),
+	.B(bin_cntr_Z[6]),
+	.Y(gray_out[5])
+);
+defparam \gray_code_0_x3[5] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[4]  (
+	.A(bin_cntr_Z[4]),
+	.B(bin_cntr_Z[5]),
+	.Y(gray_out[4])
+);
+defparam \gray_code_0_x3[4] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[3]  (
+	.A(bin_cntr_Z[3]),
+	.B(bin_cntr_Z[4]),
+	.Y(gray_out[3])
+);
+defparam \gray_code_0_x3[3] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[2]  (
+	.A(bin_cntr_Z[2]),
+	.B(bin_cntr_Z[3]),
+	.Y(gray_out[2])
+);
+defparam \gray_code_0_x3[2] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[1]  (
+	.A(bin_cntr_Z[1]),
+	.B(bin_cntr_Z[2]),
+	.Y(gray_out[1])
+);
+defparam \gray_code_0_x3[1] .INIT=4'h6;
+// @9:39
+  CFG2 \gray_code_0_x3[0]  (
+	.A(bin_cntr_Z[0]),
+	.B(bin_cntr_Z[1]),
+	.Y(gray_out[0])
+);
+defparam \gray_code_0_x3[0] .INIT=4'h6;
+  CFG4 \max_cnt_bin_RNIOOIB[4]  (
+	.A(max_cnt_bin[4]),
+	.B(max_cnt_bin[7]),
+	.C(gray_out[7]),
+	.D(bin_cntr_Z[4]),
+	.Y(un1_cnt_clr_0_13_i_o2_3)
+);
+defparam \max_cnt_bin_RNIOOIB[4] .INIT=16'h7DBE;
+  CFG4 \max_cnt_bin_RNIOOIB[5]  (
+	.A(max_cnt_bin[6]),
+	.B(max_cnt_bin[5]),
+	.C(bin_cntr_Z[6]),
+	.D(bin_cntr_Z[5]),
+	.Y(un1_cnt_clr_0_13_i_o2_2)
+);
+defparam \max_cnt_bin_RNIOOIB[5] .INIT=16'h7BDE;
+  CFG4 \max_cnt_bin_RNI88IB[1]  (
+	.A(max_cnt_bin[2]),
+	.B(max_cnt_bin[1]),
+	.C(bin_cntr_Z[2]),
+	.D(bin_cntr_Z[1]),
+	.Y(un1_cnt_clr_0_13_i_o2_1)
+);
+defparam \max_cnt_bin_RNI88IB[1] .INIT=16'h7BDE;
+  CFG4 \max_cnt_bin_RNIGG4N[0]  (
+	.A(N_27_i),
+	.B(un1_cnt_clr_0_13_i_o2_1),
+	.C(max_cnt_bin[0]),
+	.D(bin_cntr_Z[0]),
+	.Y(un1_cnt_clr_0_13_i_o2_4)
+);
+defparam \max_cnt_bin_RNIGG4N[0] .INIT=16'hEFFE;
+// @10:51
+  CFG3 incr_sig_RNIL78P (
+	.A(cnt_clr),
+	.B(incr_sig_Z),
+	.C(incr_cntr),
+	.Y(N_34_i)
+);
+defparam incr_sig_RNIL78P.INIT=8'hBA;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* Gray_Code_Counter */
+

@@ -1,0 +1,14 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. GMII_MAC_Filter_Sniffer, 438, 200, 127, 0, 0, 0, 1, 5, 0
+.	. COREFIFO_C0, 109, 54, 43, 0, 0, 0, 1, 2, 0
+.	.	. COREFIFO_C0_COREFIFO_C0_0_COREFIFO, 109, 54, 43, 0, 0, 0, 1, 2, 0
+.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_async, 86, 35, 43, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync_2_6, 14, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync_2_7, 14, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv_6, 0, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv_7, 0, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_resetSync_0, 2, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. COREFIFO_C0_COREFIFO_C0_0_corefifo_resetSync_1, 2, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. COREFIFO_C0_COREFIFO_C0_0_ram_wrapper, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	. COREFIFO_C0_COREFIFO_C0_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\synthesis\synlog\GMII_MAC_Filter_Sniffer_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>GMII_MAC_Filter_Sniffer|PCLK</data>
+<data>100.0 MHz</data>
+<data>351.3 MHz</data>
+<data>7.153</data>
+</row>
+<row>
+<data>GMII_MAC_Filter_Sniffer|RXCLK</data>
+<data>100.0 MHz</data>
+<data>180.7 MHz</data>
+<data>4.465</data>
+</row>
+</report_table>
