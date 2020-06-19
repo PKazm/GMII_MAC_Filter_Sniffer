@@ -1,2 +1,0 @@
-@W: MT246 :"e:\github_repos\gmii_mac_filter_sniffer\gmii_mac_filter_sniffer_libero\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@W: MT420 |Found inferred clock FCCC_C0_FCCC_C0_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FCCC_C0_0.FCCC_C0_0.GL0_net.

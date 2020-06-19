@@ -1,9 +1,0 @@
-KEY IDE_DES_TOOL "Ide"
-KEY IDE_DES_ADB_PATH "E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\designer\impl1\Gray_Code_Counter.adb"
-LIST SOURCE_FILES
-ENDLIST
-LIST OPTIONAL_FILES
-VALUE "E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\synthesis\Gray_Code_Counter_vm.sdc;Skipped"
-ENDLIST
-LIST VCD_FILES
-ENDLIST

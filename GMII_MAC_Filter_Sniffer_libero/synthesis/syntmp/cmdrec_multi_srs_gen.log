@@ -1,7 +1,0 @@
-C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.GMII_MAC_Filter_Sniffer  -multisrs  E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\synthesis\synwork\GMII_MAC_Filter_Sniffer_comp.srs  -osyn  E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\synthesis\synwork\GMII_MAC_Filter_Sniffer_mult.srs  -log  E:\Github_Repos\GMII_MAC_Filter_Sniffer\GMII_MAC_Filter_Sniffer_libero\synthesis\synlog\GMII_MAC_Filter_Sniffer_multi_srs_gen.srr 
-relcom:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe -link -top work.GMII_MAC_Filter_Sniffer -multisrs ..\synwork\GMII_MAC_Filter_Sniffer_comp.srs -osyn ..\synwork\GMII_MAC_Filter_Sniffer_mult.srs -log ..\synlog\GMII_MAC_Filter_Sniffer_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\GMII_MAC_Filter_Sniffer_comp.srs|io:i|time:1591681303|size:32587|exec:0|csum:A0C55A398226EC619E9B6A655A6C336B
-file:..\synwork\GMII_MAC_Filter_Sniffer_mult.srs|io:o|time:1591681304|size:12193|exec:0|csum:
-file:..\synlog\GMII_MAC_Filter_Sniffer_multi_srs_gen.srr|io:o|time:1591681304|size:1053|exec:0|csum:
-file:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582898378|size:8841216|exec:1|csum:0CC7C05A48C9642EAD04A8A03F593C86
